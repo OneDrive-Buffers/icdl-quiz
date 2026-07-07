@@ -1,0 +1,156 @@
+{
+  "title": "Spreadsheets - Calculations",
+  "description": "Spreadsheet creation, formulas, data analysis, and visualization",
+  "modules": [
+    "Spreadsheet Basics",
+    "Formulas and Functions",
+    "Data Analysis",
+    "Charts and Reports"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "difficulty": "basic",
+      "topic": "Basics",
+      "question": "What is a cell in a spreadsheet?",
+      "options": [
+        "A row of data",
+        "The intersection of a row and column",
+        "An entire column",
+        "A saved file"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A cell is the basic unit in a spreadsheet, identified by its column letter and row number (e.g., A1)."
+    },
+    {
+      "id": 2,
+      "type": "true_false",
+      "difficulty": "basic",
+      "topic": "Formulas",
+      "question": "In a spreadsheet, formulas always start with an equals sign (=).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All spreadsheet formulas begin with '=' to signal the application to perform a calculation."
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Functions",
+      "question": "What does the SUM function do?",
+      "options": [
+        "Finds the maximum value",
+        "Adds values in specified cells",
+        "Counts the number of cells",
+        "Calculates the average"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SUM adds all numeric values in the specified range, such as =SUM(A1:A10)."
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Formatting",
+      "question": "Why is data formatting important in spreadsheets?",
+      "options": [
+        "It makes the spreadsheet look prettier",
+        "It improves readability and can affect calculations (dates, currency, etc.)",
+        "It has no real purpose",
+        "Only for printed documents"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Proper formatting ensures data is displayed correctly and can impact how calculations are performed."
+    },
+    {
+      "id": 5,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "topic": "Sorting",
+      "question": "Sorting data in ascending order means arranging it from smallest to largest.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ascending order arranges data from smallest to largest (or A to Z for text). Descending is largest to smallest."
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "difficulty": "basic",
+      "topic": "Charts",
+      "question": "What is the main purpose of creating a chart in a spreadsheet?",
+      "options": [
+        "To make the file larger",
+        "To visually represent data for easier understanding",
+        "To delete data",
+        "Charts are pointless"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Charts transform numeric data into visual representations, making trends and patterns easier to understand."
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "topic": "Conditionals",
+      "question": "What would the formula =IF(A1>10, 'High', 'Low') do?",
+      "options": [
+        "Add two numbers",
+        "Check if A1 is greater than 10, displaying 'High' if true, 'Low' if false",
+        "Count cells",
+        "Delete values"
+      ],
+      "correctAnswer": 1,
+      "explanation": "IF is a conditional function that tests a condition and returns different values based on the result."
+    },
+    {
+      "id": 8,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "topic": "Validation",
+      "question": "Data validation in spreadsheets helps prevent entry of incorrect or inappropriate data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Data validation sets rules for cell entries, ensuring only valid data is entered."
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Functions",
+      "question": "What does the AVERAGE function calculate?",
+      "options": [
+        "The sum of values",
+        "The middle value in a range",
+        "The total of all numbers divided by the count of numbers",
+        "The largest value"
+      ],
+      "correctAnswer": 2,
+      "explanation": "AVERAGE divides the sum of values by the number of values to find the mean."
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Filtering",
+      "question": "What does the filter feature in spreadsheets allow you to do?",
+      "options": [
+        "Delete data permanently",
+        "Display only rows that meet specific criteria",
+        "Change all data to uppercase",
+        "Sort alphabetically only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Filtering shows only the data that matches your criteria, making it easier to analyze specific information."
+    }
+  ]
+}

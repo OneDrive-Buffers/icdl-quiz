@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICDL Quiz Master - Exam Prep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">🎓 ICDL Quiz Master</h1>
+            <p class="tagline">Master Your Digital Skills</p>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Module Selection Screen -->
+        <div id="moduleScreen" class="screen active">
+            <h2>Choose Your Module</h2>
+            <p class="subtitle">Select a module to start practicing</p>
+            <div class="modules-grid">
+                <button class="module-card" data-module="computer-essentials">
+                    <div class="module-icon">💻</div>
+                    <h3>Computer Essentials</h3>
+                    <p>10 questions</p>
+                </button>
+                <button class="module-card" data-module="documents">
+                    <div class="module-icon">📄</div>
+                    <h3>Documents</h3>
+                    <p>10 questions</p>
+                </button>
+                <button class="module-card" data-module="online-essentials">
+                    <div class="module-icon">🌐</div>
+                    <h3>Online Essentials</h3>
+                    <p>10 questions</p>
+                </button>
+                <button class="module-card" data-module="spreadsheets">
+                    <div class="module-icon">📊</div>
+                    <h3>Spreadsheets</h3>
+                    <p>10 questions</p>
+                </button>
+                <button class="module-card" data-module="certification">
+                    <div class="module-icon">🏆</div>
+                    <h3>Certification</h3>
+                    <p>10 questions</p>
+                </button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quizScreen" class="screen">
+            <!-- Header -->
+            <div class="quiz-header">
+                <div class="module-name" id="moduleName"></div>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <span class="progress-text" id="progressText">0/0</span>
+                </div>
+            </div>
+
+            <!-- Question Container -->
+            <div class="question-container">
+                <div class="question-info">
+                    <span class="difficulty-badge" id="difficultyBadge"></span>
+                    <span class="topic-badge" id="topicBadge"></span>
+                </div>
+                <h3 id="questionText" class="question-text"></h3>
+
+                <!-- Options -->
+                <div class="options" id="optionsContainer"></div>
+
+                <!-- Navigation -->
+                <div class="quiz-controls">
+                    <button id="prevBtn" class="btn btn-secondary" onclick="previousQuestion()">← Previous</button>
+                    <button id="nextBtn" class="btn btn-primary" onclick="nextQuestion()">Next →</button>
+                </div>
+            </div>
+
+            <!-- Score Display -->
+            <div class="score-box">
+                <div class="score-item">
+                    <span class="score-label">Correct</span>
+                    <span class="score-value" id="scoreCorrect">0</span>
+                </div>
+                <div class="score-item">
+                    <span class="score-label">Skipped</span>
+                    <span class="score-value" id="scoreSkipped">0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="resultsScreen" class="screen">
+            <div class="results-content">
+                <div class="results-icon" id="resultIcon"></div>
+                <h2 id="resultTitle"></h2>
+                <div class="results-stats">
+                    <div class="stat">
+                        <div class="stat-label">Total Questions</div>
+                        <div class="stat-value" id="totalQuestions">0</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Correct Answers</div>
+                        <div class="stat-value" id="correctAnswers">0</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Score</div>
+                        <div class="stat-value" id="scorePercentage">0%</div>
+                    </div>
+                </div>
+
+                <!-- Performance Details -->
+                <div class="performance-breakdown">
+                    <h3>Performance by Difficulty</h3>
+                    <div id="difficultyBreakdown"></div>
+                </div>
+
+                <!-- Review Section -->
+                <div class="review-section" id="reviewSection"></div>
+
+                <!-- Action Buttons -->
+                <div class="results-actions">
+                    <button class="btn btn-secondary" onclick="backToModules()">Back to Modules</button>
+                    <button class="btn btn-primary" onclick="restartModule()">Retry Module</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="spinner">
+        <div class="spinner-circle"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

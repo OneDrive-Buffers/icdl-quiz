@@ -1,0 +1,156 @@
+{
+  "title": "Documents - Text Editing",
+  "description": "Document creation, editing, formatting, and professional writing skills",
+  "modules": [
+    "Creating Documents",
+    "Formatting Text",
+    "Document Layout",
+    "Professional Writing"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "difficulty": "basic",
+      "topic": "Basics",
+      "question": "What is the primary purpose of a word processor?",
+      "options": [
+        "To create and edit text documents",
+        "To perform mathematical calculations",
+        "To create presentations",
+        "To manage database records"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A word processor like Microsoft Word is designed for creating, editing, and formatting text documents."
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "difficulty": "basic",
+      "topic": "Formatting",
+      "question": "Which formatting option makes text appear slanted?",
+      "options": [
+        "Bold",
+        "Italic",
+        "Underline",
+        "Strikethrough"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Italic formatting slants text to the right, commonly used for emphasis or technical terms."
+    },
+    {
+      "id": 3,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "topic": "Styles",
+      "question": "Using consistent styles throughout a document improves its professional appearance and makes editing easier.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Styles ensure consistency in formatting and allow for quick modifications across the entire document."
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Layout",
+      "question": "What does the 'Page Break' function do?",
+      "options": [
+        "Ends the current document",
+        "Deletes the current page",
+        "Starts a new page while continuing the document",
+        "Splits the page into columns"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Page Break inserts a manual break to start content on a new page without leaving blank space."
+    },
+    {
+      "id": 5,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "topic": "Editing",
+      "question": "The spell checker catches all grammatical errors automatically.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "While spell checkers catch misspellings, they don't catch all grammar issues and require manual review."
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "difficulty": "basic",
+      "topic": "Saving",
+      "question": "How often should you save your work while editing a document?",
+      "options": [
+        "Only at the very end",
+        "Frequently and regularly",
+        "Once per hour",
+        "Documents save automatically, so never"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Saving frequently prevents loss of work in case of technical issues or unexpected shutdowns."
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Headers & Footers",
+      "question": "What is the best use for headers and footers in a professional document?",
+      "options": [
+        "To add decorative images only",
+        "To include document title, page numbers, date, and author information",
+        "To replace the main content",
+        "They serve no practical purpose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Headers and footers are used for consistent information across all pages like page numbers and document titles."
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Tables",
+      "question": "Why might you use a table in a document?",
+      "options": [
+        "To waste space",
+        "To organize data in rows and columns clearly",
+        "Tables are never useful",
+        "Only for artistic purposes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tables help organize complex information in an easy-to-read format with clear rows and columns."
+    },
+    {
+      "id": 9,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "topic": "Find & Replace",
+      "question": "The Find & Replace function can be used to automatically update multiple instances of text at once.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Find & Replace is a powerful feature for making bulk text changes throughout a document efficiently."
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "topic": "Templates",
+      "question": "What is the advantage of using document templates?",
+      "options": [
+        "They make documents larger",
+        "They provide consistent formatting and save time on frequently created documents",
+        "They prevent editing",
+        "Templates are outdated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Templates ensure consistency and reduce the time needed to create documents with standard formats."
+    }
+  ]
+}

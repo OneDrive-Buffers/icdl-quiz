@@ -1,0 +1,154 @@
+{
+  "title": "Online Essentials",
+  "description": "Internet, web browsing, email, online collaboration, and cybersecurity",
+  "modules": [
+    "Internet Basics",
+    "Web Browsing",
+    "Email Communication",
+    "Online Security"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "difficulty": "basic",
+      "topic": "Internet",
+      "question": "What does 'WWW' stand for?",
+      "options": [
+        "World Wide Web",
+        "Wide Web World",
+        "Web World Wide",
+        "World Web Width"
+      ],
+      "correctAnswer": 0,
+      "explanation": "WWW (World Wide Web) is the system of interconnected documents accessed via the Internet."
+    },
+    {
+      "id": 2,
+      "type": "true_false",
+      "difficulty": "basic",
+      "topic": "Email",
+      "question": "You should use the same password for all your email accounts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each email account should have a unique, strong password to prevent unauthorized access."
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Browsers",
+      "question": "What is the primary function of a web browser?",
+      "options": [
+        "To send and receive emails only",
+        "To display web pages and navigate the Internet",
+        "To create files and documents",
+        "To manage computer hardware"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Web browsers (Chrome, Firefox, Safari, Edge) are used to access and display web pages."
+    },
+    {
+      "id": 4,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "topic": "Security",
+      "question": "It is safe to enter personal information on websites that don't have HTTPS (secure connection).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HTTPS ensures encrypted communication. Avoid entering sensitive data on non-HTTPS sites."
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "difficulty": "basic",
+      "topic": "Search",
+      "question": "What is the main purpose of a search engine?",
+      "options": [
+        "To host email servers",
+        "To index and retrieve web pages based on search terms",
+        "To create websites",
+        "To sell products online"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Search engines like Google, Bing, and DuckDuckGo help find relevant web pages based on keywords."
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Collaboration",
+      "question": "Which tool is best for real-time online collaboration?",
+      "options": [
+        "Floppy disks",
+        "Cloud-based platforms with shared access",
+        "Printing and mailing documents",
+        "USB drives"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cloud platforms like Google Drive, OneDrive, and Dropbox allow multiple users to work on documents simultaneously."
+    },
+    {
+      "id": 7,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "topic": "Phishing",
+      "question": "Phishing emails are designed to trick users into revealing sensitive information.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phishing is a social engineering attack that uses deceptive emails to steal credentials and personal data."
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Downloads",
+      "question": "What should you always check before downloading files from the Internet?",
+      "options": [
+        "The file is large",
+        "The source is trustworthy and the file is scanned for malware",
+        "Your internet speed",
+        "The file name is short"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Always verify the source and scan downloads for malware to prevent security threats."
+    },
+    {
+      "id": 9,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "topic": "Bookmarks",
+      "question": "Bookmarking frequently visited websites helps organize your browsing and saves time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bookmarks allow quick access to important websites without having to search each time."
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Privacy",
+      "question": "Which is the best practice for online privacy?",
+      "options": [
+        "Share all personal information online",
+        "Review privacy settings and limit data sharing",
+        "Use public WiFi for sensitive transactions",
+        "Never use strong passwords"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Managing privacy settings helps protect your personal information from unauthorized access or misuse."
+    }
+  ]
+}

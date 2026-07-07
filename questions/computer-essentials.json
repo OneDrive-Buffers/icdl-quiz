@@ -1,0 +1,154 @@
+{
+  "title": "Computer Essentials",
+  "description": "Fundamental computer skills, hardware, and system management",
+  "modules": [
+    "Understanding Computers",
+    "Working with Files",
+    "System Settings",
+    "Security Basics"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "difficulty": "basic",
+      "topic": "Hardware",
+      "question": "Which of the following is a central processing unit (CPU)?",
+      "options": [
+        "The main processor that executes instructions",
+        "A storage device for data",
+        "A display monitor",
+        "A keyboard input device"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The CPU is the primary processor responsible for executing all instructions and operations in a computer."
+    },
+    {
+      "id": 2,
+      "type": "true_false",
+      "difficulty": "basic",
+      "topic": "Memory",
+      "question": "RAM (Random Access Memory) is permanent storage that keeps data even after shutdown.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "RAM is temporary memory that is cleared when the computer is turned off. Permanent storage uses hard drives or SSDs."
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "File Management",
+      "question": "What is the correct way to organize files on a computer?",
+      "options": [
+        "Store everything on the desktop",
+        "Use folders and subfolders based on content type",
+        "Keep all files in the Downloads folder",
+        "Name files with random numbers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Organizing files in logical folder structures makes them easier to find, backup, and manage."
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "System Maintenance",
+      "question": "What should you do regularly to maintain computer performance?",
+      "options": [
+        "Delete the operating system",
+        "Update software and remove unnecessary files",
+        "Never install new programs",
+        "Disable all security features"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Regular updates and maintenance ensure security, performance, and compatibility of your system."
+    },
+    {
+      "id": 5,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "topic": "Security",
+      "question": "Using the same password across multiple accounts is a secure practice.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using unique, strong passwords for each account significantly improves security and protects your data."
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "difficulty": "basic",
+      "topic": "Peripherals",
+      "question": "Which of these is an external input device?",
+      "options": [
+        "Hard Drive",
+        "Mouse",
+        "RAM",
+        "Motherboard"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A mouse is an input device used to control the cursor and interact with the computer."
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Performance",
+      "question": "What does defragmentation do to a hard drive?",
+      "options": [
+        "Increases the total storage capacity",
+        "Organizes data more efficiently for faster access",
+        "Permanently deletes unused files",
+        "Encrypts all data on the drive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Defragmentation rearranges data on the disk to improve read/write speed and system performance."
+    },
+    {
+      "id": 8,
+      "type": "true_false",
+      "difficulty": "basic",
+      "topic": "Power Management",
+      "question": "Hibernate mode uses more power than sleep mode.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hibernate uses minimal power as it saves the session to disk, while sleep maintains power to RAM."
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Storage",
+      "question": "Which type of storage is fastest for accessing data?",
+      "options": [
+        "Hard Drive (HDD)",
+        "SSD (Solid State Drive)",
+        "USB Flash Drive",
+        "Cloud Storage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SSDs have no moving parts and provide significantly faster data access than traditional hard drives."
+    },
+    {
+      "id": 10,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "topic": "Backup",
+      "question": "Creating regular backups is optional and not necessary for data protection.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Regular backups are essential to protect against data loss from hardware failure, malware, or accidents."
+    }
+  ]
+}

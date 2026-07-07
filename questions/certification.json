@@ -1,0 +1,154 @@
+{
+  "title": "ICDL Certification",
+  "description": "General certification, digital etiquette, security best practices, and accessibility",
+  "modules": [
+    "ICDL Overview",
+    "Digital Security",
+    "Professional Conduct",
+    "Accessibility & Ethics"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "difficulty": "basic",
+      "topic": "ICDL",
+      "question": "What does ICDL stand for?",
+      "options": [
+        "International Computer Data License",
+        "International Computer Driving License",
+        "Internet Cloud Data Learning",
+        "Integrated Computer Development Lab"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ICDL is the International Computer Driving License, a globally recognized IT certification."
+    },
+    {
+      "id": 2,
+      "type": "true_false",
+      "difficulty": "basic",
+      "topic": "Recognition",
+      "question": "ICDL certification is recognized internationally and valued by employers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ICDL is recognized in over 100 countries and demonstrates essential digital literacy skills."
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Passwords",
+      "question": "What is the best practice for creating strong passwords?",
+      "options": [
+        "Use your name and birthdate",
+        "Use common words like 'password123'",
+        "Mix uppercase, lowercase, numbers, and symbols with adequate length",
+        "Use the same password for all accounts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Strong passwords are at least 12 characters and include a mix of character types."
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Email Etiquette",
+      "question": "Which is a best practice for professional email communication?",
+      "options": [
+        "Use excessive capitalization and emojis",
+        "Write clearly, use proper grammar, and keep it concise",
+        "Forward all emails to everyone",
+        "Use vague subject lines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Professional emails should be clear, concise, properly formatted, and respectful."
+    },
+    {
+      "id": 5,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "topic": "Data Protection",
+      "question": "GDPR is a regulation that protects personal data privacy in the European Union.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GDPR (General Data Protection Regulation) is an EU law that regulates data privacy and protection."
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "difficulty": "basic",
+      "topic": "Accessibility",
+      "question": "Why is digital accessibility important?",
+      "options": [
+        "It only matters for disabled users",
+        "It ensures everyone can access digital content regardless of ability",
+        "It's just a nice feature, not essential",
+        "Only large companies need it"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Accessibility ensures digital content is usable by people with various disabilities or limitations."
+    },
+    {
+      "id": 7,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "topic": "Backup",
+      "question": "Backing up important data regularly is a necessary part of digital security.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Regular backups protect against data loss from hardware failure, malware, or accidents."
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Malware",
+      "question": "What is the best way to protect against malware?",
+      "options": [
+        "Open all email attachments",
+        "Download from untrusted sources",
+        "Use antivirus software, keep systems updated, and avoid suspicious downloads",
+        "Never update your operating system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multi-layered protection includes antivirus software, regular updates, and careful browsing habits."
+    },
+    {
+      "id": 9,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "topic": "Copyright",
+      "question": "It's acceptable to copy and use content from the internet without permission if it's for personal use.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Copyright laws protect original works regardless of intended use. Always seek permission or use licensed content."
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "topic": "Updates",
+      "question": "Why is it important to keep your software and operating system updated?",
+      "options": [
+        "Updates make your computer slower",
+        "Updates include security patches and bug fixes",
+        "Updates are optional",
+        "Only gamers need to update"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Updates protect your system from security vulnerabilities and improve functionality and performance."
+    }
+  ]
+}
